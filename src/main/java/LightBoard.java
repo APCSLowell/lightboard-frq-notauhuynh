@@ -12,10 +12,10 @@ public class LightBoard
   {
     for(int i = 0; i < numRows; i++){
       for(int j = 0; j < numCols; i++){
-          if(Math.random() * 100 > 40){
-            lights[numRows][numCols] = false;
+          if(Math.random() * 100 > 39){
+            lights[i][j] = false;
           } else{
-            lights[numRows][numCols] = true;
+            lights[i][j] = true;
           }
       }
     }
